@@ -46,8 +46,7 @@ class NameHat:
 
 class ContactBook:
     def __init__(self):
-        self.book = {
-        }
+        self.book = {}
     def __repr__(self):
         return(str(self.book))
     def __add__(self, other):
